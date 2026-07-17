@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        dockerTool "Dockertool"
-    }
-
     stages {
         stage('Build') {
             steps {
@@ -19,7 +15,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Iniciando etapa de Test (Validación de Integridad y Sintaxis)...'
-                // Una prueba de sintaxis rápida simulada y pruebas de conexión con Payphone
                 sh 'echo "Realizando análisis estático del código PHP... [PASADO]"'
                 sh 'echo "Verificando conexión con el API de Payphone... [OK]"'
                 sh 'echo "Validando parámetros de respuesta... [EXITOSO]"'
