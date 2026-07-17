@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirigiendo...</title>
+</head>
+<body>
+    <!-- Redirige al endpoint que muestra el resultado del pago (pasa la query string). -->
+    <script>
+        // Añade los parámetros de consulta y redirige a /respuestas
+        window.location.replace('/respuestas' + window.location.search);
+    </script>
+</body>
+</html>
