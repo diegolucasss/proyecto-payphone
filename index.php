@@ -302,7 +302,7 @@
     <div class="container">
         <section class="hero">
             <h1>Catalogo de Ropa</h1>
-            <p>No y elegancia en cada pieza  </p>
+            <p>Encuentra tu estilo y elegancia en cada pieza  </p>
         </section>
 
         <section class="grid" aria-label="Productos">
